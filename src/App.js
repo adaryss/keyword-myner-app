@@ -2,6 +2,10 @@ import React from "react";
 import "./App.css";
 import { Typography } from "@material-ui/core";
 
+import {test} from './google-api/client';
+
+console.log('test', test);
+
 const App = () => {
     return (
         <div className="App">
